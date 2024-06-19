@@ -19,7 +19,7 @@ if (isset($_POST['id']) && isset($_POST['nama']) && isset($_POST['skor'])) {
     }
 
     // Mengarahkan kembali ke halaman utama setelah pembaruan
-    header("Location: sorting.php");
+    header("Location: index.php");
     exit();
 } else {
     echo "Data tidak lengkap.";
