@@ -16,7 +16,7 @@ if (isset($_POST['id'])) {
     }
 
     // Mengarahkan kembali ke halaman utama setelah penghapusan
-    header("Location: sorting.php");
+    header("Location: index.php");
     exit();
 } else {
     echo "ID tidak ditemukan.";
