@@ -8,7 +8,7 @@ $query = ("INSERT INTO ranking (nama, skor) VALUES('$nama','$skor')");
 if ($host->query($query)) {
 
     //redirect ke halaman index.php 
-    header("location:sorting.php");
+    header("location:index.php");
 } else {
 
     //pesan error gagal insert data
