@@ -43,17 +43,17 @@
       }
       ?>
 
-      <form action='sorting.php' method="POST">
+      <form action='index.php' method="POST">
         <div class="input-group" style="width: 300px; height: 35px; padding: 10px 0px 10px 0px;">
           <input type='text' value='' name='qcari' class="qcari" placeholder='  cari data...' style="height: 35px; width: 200px;">
-          <input type='submit' value='cari' class="btn btn-success cari" style="height: 35px;"><a href='sorting.php' class="btn btn-primary all" role="button" style="height: 35px;">All</a>
+          <input type='submit' value='cari' class="btn btn-success cari" style="height: 35px;"><a href='index.php' class="btn btn-primary all" role="button" style="height: 35px;">All</a>
         </div>
       </form>
       <thead>
         <tr>
           <td>Ranking</td>
-          <td><a href='sorting.php?orderby=nama&pola=<?= $polabaru; ?>'>Nama</a></td>
-          <td><a href='sorting.php?orderby=skor&pola=<?= $polabaru; ?>'>Skor</a></td>
+          <td><a href='index.php?orderby=nama&pola=<?= $polabaru; ?>'>Nama</a></td>
+          <td><a href='index.php?orderby=skor&pola=<?= $polabaru; ?>'>Skor</a></td>
           <td>Aksi</td>
         </tr>
       </thead>
